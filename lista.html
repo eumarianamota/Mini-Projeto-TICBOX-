@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dados do Usuário</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    #contato {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      border-left: 3px solid green;
+      background-color: #f0fdf4;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 8px 16px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Usuário Cadastrado</h1>
+
+  <div id="infoUsuario">
+    <!-- Os dados serão inseridos aqui via JavaScript -->
+  </div>
+
+  <button id="btnContato">Entrar em Contato</button>
+
+  <div id="contato">
+    <strong>WhatsApp:</strong> <span id="whats"></span><br>
+    <strong>Email:</strong> <span id="email"></span>
+  </div>
+
+  <script src="lista.js"></script>
+
+</body>
+</html>
